@@ -1,0 +1,6 @@
+Key Promoter X
+com.chrisrm.idea.MaterialThemeUI
+com.intellij.plugins.sublimetextkeymap
+com.markskelton.one-dark-theme
+izhangzhihao.rainbow.brackets
+mobi.hsz.idea.gitignore

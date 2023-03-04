@@ -1,0 +1,94 @@
+<templateSet group="chin">
+  <template name="dqr" value="document.querySelector()" description="document.querySelector()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="arr" value="() =&gt; {&#10;    $1$&#10;}" description="arrowFunc" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ar" value="($1$) =&gt;$2$ " description="mini arrow func" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fcomp" value="const $1$ = () =&gt; {&#10;    return (&#10;        &lt;div&gt;&#10;            &#10;        &lt;/div&gt;&#10;    )&#10;}&#10;export default $1$;" description="func component" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="trc" value="try{&#10;&#10;}&#10;catch(error){&#10;&#10;}" description="try catch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="rus" value="const [$1$,set$2$$1$]=React.useState($3$)" description="React Use state" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="imr" value="import React from &quot;react&quot;;" description="Import React" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ims" value="import s from './$1$'" description="import s from" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="arc" value="($1$) =&gt; {&#10;    return{&#10;        &#10;    }&#10;  }" description="arrow from callback" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="imsel" value="import {useSelector,useDispatch} from &quot;react-redux&quot;;" description="import useSelector" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dis" value="const dispatch=useDispatch()" description="const dispatch" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="usel" value="useSelector((state) =&gt; state.$1$)" description="useSelector" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="slice" value="import {createSlice} from &quot;@reduxjs/toolkit&quot;;&#10;&#10;const initialState = {&#10;  &#10;}&#10;&#10;const $1$Slice=createSlice({&#10;  name:'$1$',&#10;  initialState,&#10;  reducers:{&#10;   &#10;  }&#10;})&#10;&#10;export const {}=$1$Slice.actions&#10;export default $1$Slice.reducer" description="new slice file" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ars" value="(state) =&gt; state." description="arrow selector fun" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="sliceIndex" value="import { configureStore } from '@reduxjs/toolkit';&#10;&#10;export default configureStore({&#10;  reducer: {&#10;    &#10;  },&#10;});" description="create index slice" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="imst" value="import styles from './$1$'" description="import styles" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
