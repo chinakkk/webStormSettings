@@ -4,13 +4,12 @@
     <property name="created">2023-02-01T16:53:50</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2022.2.1.0.0</property>
-    <property name="modified">2023-02-12T14:44:01</property>
+    <property name="modified">2023-03-04T20:22:15</property>
     <property name="originalScheme">One Dark</property>
-    <property name="rainbow Default language">true</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.2" />
-  <option name="EDITOR_FONT_SIZE" value="15" />
-  <option name="EDITOR_FONT_NAME" value="Monaco" />
+  <option name="LINE_SPACING" value="1.0" />
+  <option name="EDITOR_FONT_SIZE" value="16" />
+  <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="98c379" />
     <option name="ANNOTATIONS_COLOR" value="a0a7b4" />

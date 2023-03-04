@@ -1,11 +1,11 @@
 <application>
   <component name="ExportableFileTemplateSettings">
     <default_templates>
-      <template name="FcompDirectory.jsx" file-name="${nameFuncComp}/${nameFuncComp}" reformat="true" live-template-enabled="false">
+      <template name="FcompDirectory.jsx" file-name="${nameFuncComp}/${nameFuncComp}" reformat="true" live-template-enabled="true">
         <template name="FcompDirectory.jsx.child.0༏ext༏.module.scss" file-name="${nameFuncComp}/${nameFuncComp}" reformat="true" live-template-enabled="false" />
       </template>
       <template name="FcompDirectory.jsx.child.0༏ext༏.module.scss" file-name="${nameFuncComp}/${nameFuncComp}" reformat="true" live-template-enabled="false" />
-      <template name="redux༏ext༏..js" file-name="redux/store" reformat="true" live-template-enabled="false">
+      <template name="redux༏ext༏..js" file-name="redux/store" reformat="true" live-template-enabled="true">
         <template name="redux༏ext༏..js.child.0.js" file-name="redux/slices/${sliceName}" reformat="true" live-template-enabled="false" />
       </template>
       <template name="redux༏ext༏..js.child.0.js" file-name="redux/slices/${sliceName}" reformat="true" live-template-enabled="false" />

@@ -1,4 +1,4 @@
-import styles from './Post.module.scss'
+import styles from './${nameFuncComp}.module.scss'
 
 const ${nameFuncComp} = () => {
     return (
